@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Крестики-нолики</title>
+  <link rel="stylesheet" href="./index.css">
+  <script defer src="./index.js"></script>
+</head>
+<body>
+    <div class="game">
+        <h1>Крестики-нолики</h1>
+
+        <h2 id="winner" class="winner"></h2>
+
+        <div class="board">
+          <div class="cell" onclick="makeMove(0, 0)"></div>
+          <div class="cell" onclick="makeMove(0, 1)"></div>
+          <div class="cell" onclick="makeMove(0, 2)"></div>
+          <div class="cell" onclick="makeMove(1, 0)"></div>
+          <div class="cell" onclick="makeMove(1, 1)"></div>
+          <div class="cell" onclick="makeMove(1, 2)"></div>
+          <div class="cell" onclick="makeMove(2, 0)"></div>
+          <div class="cell" onclick="makeMove(2, 1)"></div>
+          <div class="cell" onclick="makeMove(2, 2)"></div>
+        </div>
+
+        <button class="buttonCheck" onclick="resetGame()">Новая игра</button>
+    </div>
+  
+</body>
+</html>
